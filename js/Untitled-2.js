@@ -1,4 +1,10 @@
 
+        // اسکریپت برای جستجو و فیلترها
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.querySelector('.search-input');
+            const searchBtn = document.querySelector('.search-btn');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const productCards = document.querySelectorAll('.product-card');
 
 
         // اسکریپت برای جستجو و فیلترها
